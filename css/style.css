@@ -1,33 +1,86 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-header{
-    background-color: rgba(0, 0, 0, 0.55);
-    border-radius: 0px 0px 30px 30px;
-    width: 100%;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-header h1{
-    color: white;
-}
-.navbar li a{
-    color: white;
-}
-.card-cr7{
-    background-color: rgba(226, 219, 219, 0.735);
-    height: 20rem;
-}
+header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 0px 0px 30px 30px;
+  width: 100%; }
+  header h1 {
+    color: white; }
+  header nav ul li a {
+    font-size: 20px; }
+
+.navbar li a {
+  color: white; }
+
 .first-section-footer {
-    background-color: rgba(0, 0, 0, 0.55);
-}
-.about-us{
-    font-size: 1.25rem;
-    color: black;
-}
-.formulario-contactanos{
-    margin: 12.5rem;
-    padding: 12.5rem;
-    margin-top: 3.125rem;
-    margin-bottom: 3.125rem;
-}
+  background-color: rgba(0, 0, 0, 0.55); }
+
+.about-us {
+  font-size: 1.25rem;
+  color: black; }
+
+.card-cr7 {
+  background-color: rgba(226, 219, 219, 0.735);
+  height: 20rem; }
+
+.formulario-contactanos {
+  margin: 12.5rem;
+  padding: 12.5rem;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem; }
+
+@media (max-width: 1200px) {
+  .card-cr7 {
+    height: 450px; } }
+
+@media (max-width: 1024px) {
+  .texto-card {
+    font-size: 16px; }
+  .titulo-card {
+    font-size: 25px; }
+  .titulo-pag {
+    font-size: 30px; } }
+
+@media (max-width: 993px) {
+  .card-cr7 {
+    height: 300px; } }
+
+@media (max-width: 768px) {
+  header nav ul li a {
+    font-size: 16px; }
+  footer section div ul li a {
+    font-size: 16px; }
+  .img-a-1 {
+    width: 200px; } }
+
+@media (max-width: 545px) {
+  header nav ul li a {
+    font-size: 13px; }
+  header {
+    width: 100%; }
+  .texto-card {
+    font-size: 16px; }
+  .card-cr7 {
+    width: 150px; }
+  .about-us {
+    margin: 10px; }
+    .about-us p {
+      font-size: 14px; }
+  .texto-footer {
+    font-size: 16px; }
+  .img-a-1 {
+    width: 150px; } }
+
+@media (max-width: 425px) {
+  .img1 {
+    width: 225px; }
+  .img2 {
+    width: 225px; }
+  .card-cr7 {
+    height: 425px; }
+  .first-section-footer {
+    flex-direction: column; } }

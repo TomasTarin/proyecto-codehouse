@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;
+    h1{
+        color: white;
+    }
+    nav{
+        ul{
+            li{
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+.navbar{
+    li{
+        a{
+            color: white;
+        }
+    }
+}
